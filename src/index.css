@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Kanit', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.stApp {
+    background-color: #0b1a30;
+    color: #ffffff;
+}
+
+/* หัวข้อหลักดีไซน์ใหม่ */
+.main-title {
+    text-align: center;
+    color: #4ed8f3;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* การ์ดสีฟ้าอ่อน */
+.card-outer {
+    background-color: #bfe0ff;
+    border-radius: 20px;
+    padding: 20px;
+    color: #0b1a30;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-header-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0b1a30;
+}
+
+.card-header-sub {
+    font-size: 0.8rem;
+    color: #475569;
+}
+
+.card-badge {
+    background-color: #0b1a30;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    float: right;
+}
+
+/* กล่องย่อยด้านในการ์ด */
+.sub-box {
+    background-color: #a2cbfa;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 0.75rem;
+    color: #334155;
+    font-weight: 600;
+}
+
+.sub-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0b1a30;
+}
+
+.sub-desc {
+    font-size: 0.7rem;
+    color: #475569;
+}
+
+/* สถานะการเชื่อมต่อ */
+.status-banner {
+    background: linear-gradient(90deg, #ffffff 0%, #38bdf8 100%);
+    color: #0b1a30;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
